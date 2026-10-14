@@ -1,0 +1,7 @@
+#20. Print pattern of stars (triangle).
+
+rows = int(input("Enter rows: "))
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
